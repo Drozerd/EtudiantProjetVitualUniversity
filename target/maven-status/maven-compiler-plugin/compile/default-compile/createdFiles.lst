@@ -1,7 +1,9 @@
 org\mycompany\controller\EtudiantController.class
-org\mycompany\process\ProcessInsert.class
 org\mycompany\model\Cours.class
 org\mycompany\repository\ICoursRepository.class
+org\mycompany\route\CoursRoute.class
+org\mycompany\process\ProcessInsert.class
+org\mycompany\MainProjetV.class
 org\mycompany\repository\ISupportCoursRepository.class
 org\mycompany\model\SupportCours.class
 org\mycompany\model\ListeCours.class

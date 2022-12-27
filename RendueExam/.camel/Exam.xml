@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListeExam>
+	<Exam id = "1">
+		<matière>Thermodynanique</matière>
+		<annee>3A</annee>
+	</Exam>
+	<Exam id = "2">
+		<matière>Math</matière>
+		<annee>2A</annee>
+	</Exam>
+	<Exam id = "3">
+		<matière>Echangeurs Thermique</matière>
+		<annee>5A</annee>
+	</Exam>
+</ListeExam>
