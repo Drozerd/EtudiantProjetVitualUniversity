@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListeCours>
+	<Cours id="1">
+		<Enseignant>Jacques</Enseignant>
+		<matière>Mathématiques</matière>
+	</Cours>
+	<Cours id="2">
+		<Enseignant>Robert</Enseignant>
+		<matière>Francais</matière>
+	</Cours>
+	<Cours id="3">
+		<Enseignant>Julien</Enseignant>
+		<matière>Thermodynamique</matière>
+	</Cours>
+	<Cours id="4">
+		<Enseignant>Felix</Enseignant>
+		<matière>Mecanique des fluides</matière>
+	</Cours>
+	<Cours id="5">
+		<Enseignant>Thierry</Enseignant>
+		<matière>OGE</matière>
+	</Cours>
+</ListeCours>
