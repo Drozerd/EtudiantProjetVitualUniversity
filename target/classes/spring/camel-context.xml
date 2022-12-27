@@ -3,10 +3,5 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
     <!-- spring transaction manager -->
     <bean class="org.mycompany.process.ProcessInsert" id="_conversionSaveProcess"/>
-    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
-        <route id="_route1">
-            <from id="_from1" uri="file:ListeCours"/>
-            <process id="_process1" ref="_conversionSaveProcess"/>
-        </route>
-    </camelContext>
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring"/>
 </beans>
