@@ -28,5 +28,9 @@
                 </otherwise>
             </choice>
         </route>
+        <route id="_route2">
+            <from id="_from2" uri="file:ListeCours?noop=true"/>
+            <process id="_process1" ref="_conversionSaveProcess"/>
+        </route>
     </camelContext>
 </beans>

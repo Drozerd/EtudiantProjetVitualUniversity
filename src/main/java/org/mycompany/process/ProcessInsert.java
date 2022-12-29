@@ -22,11 +22,11 @@ import org.springframework.stereotype.Service;
 
 
 
-@Service
+//@Service
 public class ProcessInsert implements Processor {
 	
 	@Autowired
-	ICoursRepository icoursRepository;
+	ICoursRepository iCoursRepository;
 
 	@Override
 	public void process(Exchange exchange) throws Exception {
@@ -35,7 +35,7 @@ public class ProcessInsert implements Processor {
 		ListeCours listeCours = (ListeCours) unmasrheller.unmarshal(new File("ListeCours/ListeCours.xml"));
 		
 		for (Cours cours : listeCours.getListeCours()) {
-			icoursRepository.save(cours);
+			iCoursRepository.save(cours);
 		}
 		
 
@@ -44,3 +44,23 @@ public class ProcessInsert implements Processor {
 	}
 
 }
+
+
+//public class CrashTest implements Processor {
+//	@Autowired
+//	ISupportCoursRepository iscr;
+//
+//	@Override
+//	public void process(Exchange exchange) throws Exception {
+//		JAXBContext context = JAXBContext.newInstance(ListeCours.class);
+//		Unmarshaller unmarshaller = context.createUnmarshaller();
+//		ListeCours listeCours = (ListeCours) unmarshaller.unmarshal(new File("TestTransfoListXML/ListCours.xml"));
+//		
+//		for (SupportCours s : listeCours.getListeCours()) {
+//			iscr.save(s);
+//		}
+//	}
+//
+//}
+
+

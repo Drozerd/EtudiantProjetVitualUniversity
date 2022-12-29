@@ -20,23 +20,26 @@ public class ListeCours {
 		super();
 	}
 
-	public ListeCours(List<Cours> listeCoursEtudiant) {
+	public ListeCours(List<Cours> listeCours) {
 		super();
-		this.listeCoursEtudiant = listeCoursEtudiant;
+		this.listeCours = listeCours;
 	}
 
-	public List<Cours> getListeCoursEtudiant() {
-		return listeCoursEtudiant;
+	public List<Cours> getListeCours() {
+		return listeCours;
 	}
 
-	public void setListeCoursEtudiant(List<Cours> listeCoursEtudiant) {
-		this.listeCoursEtudiant = listeCoursEtudiant;
+	public void setListeCours(List<Cours> listeCours) {
+		this.listeCours = listeCours;
 	}
 
 	@Override
 	public String toString() {
-		return "ListeCours [listeCoursEtudiant=" + listeCoursEtudiant + "]";
+		return "ListeCours [listeCours=" + listeCours + "]";
 	}
+
+	
+	
 
 	
 	
